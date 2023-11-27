@@ -18,7 +18,8 @@ namespace ProyectoFinal.OmarArellano.Application.Main
         private readonly TarjetaCreditoDtoValidator _tarjetaCreditoValidador;
 
         public TarjetaCreditoApplication(ITarjetaCreditoDomain tarjetaCredito, IMapper mapper, TarjetaCreditoDtoValidator tarjetaCreditoValidador)
-        {
+        {  
+
             _tarjetaCredito = tarjetaCredito;
             _mapper = mapper;
             _tarjetaCreditoValidador = tarjetaCreditoValidador;
