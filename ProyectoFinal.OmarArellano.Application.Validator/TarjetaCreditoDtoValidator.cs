@@ -7,6 +7,7 @@ namespace ProyectoFinal.OmarArellano.Application.Validator
     public class TarjetaCreditoDtoValidator : AbstractValidator<TarjetaCreditoDto>
     {
         private const string caracteresValidos = @"^\d{16}$";
+          
 
         public TarjetaCreditoDtoValidator()
         {
