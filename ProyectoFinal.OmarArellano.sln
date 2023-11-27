@@ -39,11 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoFinal.OmarArellano.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoFinal.OmarArellano.Transversal.Logging", "ProyectoFinal.OmarArellano.Transversal.Logging\ProyectoFinal.OmarArellano.Transversal.Logging.csproj", "{ECB158DB-AA59-445E-B87E-EF8D7A207246}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoFinal.OmarArellanoe.Application.Validator", "ProyectoFinal.OmarArellano.Application.Validator\ProyectoFinal.OmarArellano.Application.Validator.csproj", "{39EF84B0-45B6-4AC0-BCBA-6F56844A5DEB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba", "Prueba", "{A2859F04-3C0B-49EE-9F20-7FB23C30F98C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoFinal.OmarArellano.Application.Test", "ProyectoFinal.OmarArellano.Application.Test\ProyectoFinal.OmarArellano.Application.Test.csproj", "{1F67EE45-EB8F-4F33-977D-CB617D1CBC0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoFinal.OmarArellano.Application.Validator", "ProyectoFinal.OmarArellano.Application.Validator\ProyectoFinal.OmarArellano.Application.Validator.csproj", "{39EF84B0-45B6-4AC0-BCBA-6F56844A5DEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,10 +103,6 @@ Global
 		{39EF84B0-45B6-4AC0-BCBA-6F56844A5DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EF84B0-45B6-4AC0-BCBA-6F56844A5DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EF84B0-45B6-4AC0-BCBA-6F56844A5DEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F67EE45-EB8F-4F33-977D-CB617D1CBC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F67EE45-EB8F-4F33-977D-CB617D1CBC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F67EE45-EB8F-4F33-977D-CB617D1CBC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F67EE45-EB8F-4F33-977D-CB617D1CBC0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,7 +122,6 @@ Global
 		{84AF104C-E3B9-4DCE-85F5-239669EB1D97} = {2D1B86CD-4F88-4AE5-9077-50966CCD2610}
 		{ECB158DB-AA59-445E-B87E-EF8D7A207246} = {09B0BD76-BB4D-4C6B-90C6-4E392C290F5F}
 		{39EF84B0-45B6-4AC0-BCBA-6F56844A5DEB} = {5ECD759F-013E-415D-BA74-48AD75B5A1E7}
-		{1F67EE45-EB8F-4F33-977D-CB617D1CBC0E} = {A2859F04-3C0B-49EE-9F20-7FB23C30F98C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3A67882-EA02-4925-ABDD-A7C9157A1C7D}
