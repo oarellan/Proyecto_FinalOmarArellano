@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoFinal.OmarArellano.Application.DTO\ProyectoFinal.OmarArellano.Application.DTO.csproj" />
+    <ProjectReference Include="..\ProyectoFinal.OmarArellano.Infrastructure.Data\ProyectoFinal.OmarArellano.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\ProyectoFinal.OmarArellano.Infrastructure.Interface\ProyectoFinal.OmarArellano.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

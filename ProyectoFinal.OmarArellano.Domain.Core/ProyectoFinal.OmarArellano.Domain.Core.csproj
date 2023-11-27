@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoFinal.OmarArellano.Application.DTO\ProyectoFinal.OmarArellano.Application.DTO.csproj" />
+    <ProjectReference Include="..\ProyectoFinal.OmarArellano.Domain.Entity\ProyectoFinal.OmarArellano.Domain.Entity.csproj" />
+    <ProjectReference Include="..\ProyectoFinal.OmarArellano.Domain.Interface\ProyectoFinal.OmarArellano.Domain.Interface.csproj" />
+    <ProjectReference Include="..\ProyectoFinal.OmarArellano.Infrastructure.Interface\ProyectoFinal.OmarArellano.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\ProyectoFinal.OmarArellano.Transversal.Common\ProyectoFinal.OmarArellano.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
