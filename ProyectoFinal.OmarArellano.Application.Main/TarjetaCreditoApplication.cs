@@ -37,6 +37,7 @@ namespace ProyectoFinal.OmarArellano.Application.Main
             var rsponseSanitizada = await SanitizaTarjetaCredito(tarjetaCredito);
             if (rsponseSanitizada.IsSuccess)
             {
+
                 //Se guarda el numero de tarjeta enmascarado en una variable de respuesta.
                 response.Data.NumeroTarjetaEnmascarada = EnmascaraTarjetaCredito(tarjetaCredito).Data;
 
